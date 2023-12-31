@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/contact-style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/000webhost-tag-remove.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title>Satyam Regmi </title>
+    <!--SCRIPT FOR GOTO TOP-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 300) {
+                    $('.arrow').css({
+                        "opacity": "1",
+                        "pointer-events": "auto"
+                    });
+                } else {
+                    $('.arrow').css({
+                        "opacity": "0",
+                        "pointer-events": "none"
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body onload="checkCookie()">
+
+    <div id="navbar">
+        <nav class="navigation max-width-1 m-auto">
+
+            <div class="nav-left">
+
+                <!--   <i class="fas fa-bars"></i>  -->
+
+                <span class="logo"><a href="https://satyamregmi.com.np">Satyam Regmi</a></span>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="About">ABOUT</a></li>
+                    <li><a href="Contact" class="active">CONTACT</a></li>
+                    <li><a href="Blogs/">BLOGS</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <form action="/#search.html" method="get">
+                    <input type="search" name="search" id="form-input" placeholder="Search" required>
+                    <button id="btn-search" disabled>Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!--Nav FOr MBL-->
+
+
+    <div class="mobl-container">
+        <div class="phone">
+            <div class="mobl-content">
+
+                <nav role="mobl-navigation">
+                    <a href="https://satyamregmi.com.np" style="color: white; position: fixed; font-size: 20px; left: 33vw; top: 25px;        background:
+                    linear-gradient(
+                      to right,
+                      #1E1E23,
+                      #1E1E23
+                    );">SATYAM REGMI</a>
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                      
+                        <ul id="mobl-menu">
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="About">ABOUT</a></li>
+                            <li><a href="Contact.html">CONTACT</a></li>
+                            <li><a href="Blogs/">BLOGS</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--TOP-->
+    <div class="arrow">
+        <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+    </div>
+
+
+    <div class="content">
+        <div class="top-image-container-0"></div>
+        <div class="top-image-container">
+        <div class="contact-us">
+        <h1>Contact Us</h1><br>
+       <form action="#" method="post">
+           <input type="text" name="fname"   class="form-control" placeholder="Enter First Name" maxlength="30" required> <br>
+           <input type="text" name="lname"  class="form-control" placeholder="Enter last Name" maxlength="30" required> <br>
+           <input type="email" name="email"  class="form-control" placeholder="Enter Email" required> <br>
+           <textarea rows="4" cols="50" name="comment" placeholder="Enter Your Message" maxlength="500" required></textarea><br>
+
+           <div class="g-recaptcha" data-sitekey="6LcIibwgAAAAAOJF4SzyPWoxmMzHfSaW140NSQdl"></div>
+
+           <input type="submit" class="form-control submit" value="Submit" >
+       </form>
+    </div>
+
+        </div>
+
+    </div>
+<script>
+    window.onload = function() {
+    var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+    if($recaptcha) {
+        $recaptcha.setAttribute("required", "required");
+    }
+};
+</script>
+      <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+  </script>
+
+
+    <div class="footer">
+        <div class="footer-content">
+            <h2>FOLLOW US ON SOCIAL MEDIA</h2>
+
+            <ul>
+                <a href="https://facebook.com/regmi.satyam" target="_blank">
+                    <li> <i class="fab fa-facebook-f"></i></li>
+                </a>
+                <a href="https://twitter.com/satyam6regmi" target="_blank">
+                    <li><i class="fab fa-twitter"></i></li>
+                </a>
+                <a href="https://instagram.com/regmisatyam" target="_blank">
+                    <li><i class="fab fa-instagram"></i></li>
+                </a>
+                <a href="https://linkedin.com/in/satyam-regmi" target="_blank">
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </a>
+                <a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1" target="_blank">
+                    <li><i class="fab fa-youtube"></i></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="last-footer">
+        <div id="text-footer">
+            <div id="satyam">
+                Copyright © 2021-2023 <a href="https://satyamregmi.com.np">Satyam Regmi</a> All Rights Reserved
+            </div>
+
+
+            <a href="https://satyamregmi.com.np">Home</a>
+            <a href="https://satyamregmi.com.np/About">About</a>
+            <a href="https://satyamregmi.com.np/terms-conditions">Terms and Condition</a>
+            <a href="https://satyamregmi.com.np/privacy-policy">Privacy Policy</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <!--add all information -->Hello I'm
+
+            <h3 id="foot-h3">Satyam Regmi</h3>
+            <p>I'm Webpage Designer and Developer.</p>
+            <ul class="socials">
+                <li><a href="https://facebook.com/regmi.satyam"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/Satyam6Regmi"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/regmisatyam"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://linkedin.com/in/satyam-regmi/"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+
+
+        </div>
+        <div class="footer-bottom">
+            &copy; 2021-2023 <a href="https://satyamregmi.com.np">Satyam Regmi</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
