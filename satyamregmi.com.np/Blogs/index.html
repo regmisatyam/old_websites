@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/blogs-style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/000webhost-tag-remove.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title>Blogs | Satyam </title>
+    <!--SCRIPT FOR GOTO TOP-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    $('.arrow').css({
+                        "opacity": "1", "pointer-events": "auto"
+                    });
+                } else {
+                    $('.arrow').css({
+                        "opacity": "0", "pointer-events": "none"
+                    });
+                }
+            });
+        });
+
+    </script>
+
+</head>
+
+<body onload="checkCookie()">
+    <div id="navbar">
+        <nav class="navigation max-width-1 m-auto">
+
+            <div class="nav-left">
+
+                <!--   <i class="fas fa-bars"></i>  -->
+
+                <span class="logo"><a href="https://satyamregmi.com.np">Satyam Regmi</a></span>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="../About">ABOUT</a></li>
+                    <li><a href="../Contact">CONTACT</a></li>
+                    <li><a href="#" class="active">BLOGS</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <form action="#/#search.html" method="get">
+                    <input type="search" name="search" id="form-input" placeholder="Search" required>
+                    <button id="btn-search">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!--Nav FOr MBL-->
+    <div class="mobl-container">
+        <div class="phone">
+            <div class="mobl-content">
+
+                <nav role="mobl-navigation">
+                    <a href="https://satyamregmi.com.np" style="color: white; position: fixed; font-size: 20px; left: 33vw; top: 25px;        background:
+                    linear-gradient(
+                      to right,
+                      #1E1E23,
+                      #1E1E23
+                    );">SATYAM REGMI</a>
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+
+                        <ul id="mobl-menu">
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="../About">ABOUT</a></li>
+                            <li><a href="../Contact">CONTACT</a></li>
+                            <li><a href="/Blogs/">BLOGS</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <!--TOP-->
+    <div class="arrow">
+        <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+    </div>
+
+
+    <div class="content">
+        <div class="top-image-container-0"></div>
+        <!--POpup-->
+        <div class="popup">
+            <button id="close">&times;</button>
+            <h2>GOOD NEWS</h2>
+            <p>
+                Now you also can publish your article on this site. Just follow following link.
+            </p>
+            <a href="#">
+                <div class='btn-aa'>
+                    Lets Go</div>
+            </a>
+        </div>
+
+        <div class="row-reco">
+            <div id="col-reco-1">
+
+                <h4 class="recommended-post-home">
+                    <span class="black-box">Blogs By Satyam</span> <a href="../authors/@satyam">..see all</a>
+                </h4>
+                <div class="row-blog">
+                    <div class="column-blog">
+                        <a href="domain-and-hosting"> <img src="./images/hosting.png" alt="domain-and-hosting"
+                                style="width:100%" height="200px">
+                            <span class="blog-img-title">
+                                <h3>What is Domain and Hosting?</h3>
+                            </span></a>
+                    </div>
+                    <div class="column-blog">
+                        <a href="cache-and-cookies"><img src="./images/cookies-2.png" style="width:100%" height="200px">
+                            <span class="blog-img-title">
+                                <h3>What is Cache, Cookies and Session?</h3>
+                            </span> </a>
+                    </div>
+                    <div class="column-blog">
+                        <a href="Quuantam-Computing"><img src="./images/quantam-computer.jpeg" alt="Quantum-Computing"
+                                style="width:100%" height="200px">
+                            <span class="blog-img-title">
+                                <h3> Intresting: Quantum-Computing</h3>
+                            </span> </a>
+                    </div>
+                </div>
+
+            </div>
+            <div id="col-reco-2">
+                <h4 class="recommended-post-home-1">
+                    <span class="black-box">Follow Us</span>
+                </h4> <br>
+                <div class="social">
+                    <a href="https://facebook.com/regmi.satyam" class="fa fa-facebook"></a>
+                    <a href="https://instagram.com/regmisatyam" class="fa fa-twitter"></a>
+                    <a href="https://twitter.com/Satyam6Regmi" class="fa fa-instagram"></a>
+                    <a href="https://linkedin.com/in/satyam-regmi/" class="fa fa-linkedin"></a>
+                     <a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1" class="fa fa-youtube"></a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--Script-->
+        <script type="text/javascript">
+            window.addEventListener("load", function () {
+                setTimeout(
+                    function open(event) {
+                        document.querySelector(".popup").style.display = "none";   /* REMAIN EDIT */ /* REMAIN EDIT */
+                    },
+                    4000
+                )
+            });
+
+
+            document.querySelector("#close").addEventListener("click", function () {
+                document.querySelector(".popup").style.display = "none";
+            });
+        </script>
+
+        <div class="row-reco">
+            <div id="col-reco-1">
+
+                <h4 class="recommended-post-home">
+                    <span class="black-box">Blogs By Satyam</span> <a href="../authors/@satyam">..see all</a>
+                </h4>
+                <div class="row-blog">
+                    <div class="column-blog">
+                        <a href="3D-Printing"> <img src="./images/3D-printer.webp" alt="3D-printing" style="width:100%"
+                                height="200px">
+                            <span class="blog-img-title">
+                                <h3> How is 3D Printing Done?</h3>
+                            </span></a>
+                    </div>
+                    <div class="column-blog">
+                        <a href="Internet-of-Things"><img src="./images/iot.jpeg" alt="Internet-of-Things"
+                                style="width:100%" height="200px">
+                            <span class="blog-img-title">
+                                <h3> Internet of Things(IoT)</h3>
+                            </span> </a>
+                    </div>
+                    <div class="column-blog">
+                        <a href="5G-speed"><img src="./images/5G.jpeg" alt="5G" style="width:100%" height="200px">
+                            <span class="blog-img-title">
+                                <h3> 5G : What a Super Speed</h3>
+                            </span> </a>
+                    </div>
+                </div>
+
+            </div>
+            <div id="col-reco-2">
+                <h4 class="recommended-post-home-1">
+                    <span class="black-box">Hot Topics</span>
+                </h4> <br>
+
+                <div class="row-pop">
+                    <div class="column-pop">
+                        <a href="black-holes">
+                            <img src="./images/black-hole.jpeg" alt="black-hole" style="height:55px;width:100px">
+                            &nbsp;Black Hole: Creation and &nbsp;Destruction
+                        </a>
+                    </div>
+                    <div class="column-pop">
+                        <a href="Tag-cloud">
+                            <img src="./images/Example-of-a-tag-cloud.png" alt="Tag-cloud"
+                                style="height:55px;width:100px"> &nbsp;Tag Cloud: Visual &nbsp;Representation of
+                            Contents
+                        </a>
+                    </div>
+                    <div class="column-pop">
+                        <a href="light-speed-space-limit">
+                            <img src="./images/light speed.jpg" alt="light-speed-space-limit"
+                                style="height:55px;width:100px"> &nbsp;Light Speed: Speed Limits
+                        </a>
+                    </div>
+                    <div class="column-pop">
+                        <a href="Virtual-Reality">
+                            <img src="./images/virtual-reality.jpeg" alt="Virtual-Reality"
+                                style="height:55px;width:100px"> &nbsp;Virtual Reality: Realistic &nbsp;Creation of
+                            Imagination
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="row-reco">
+            <div id="col-reco-1">
+
+                <h4 class="recommended-post-home">
+                    <span class="black-box">Blogs By Rupesh</span> <a href="../authors/@rupesh">..see all</a>
+                </h4>
+                <div class="row-blog">
+                    <div class="column-blog">
+                        <a href="java-script"> <img src="./images/java-script.png" alt="java-script" style="width:100%"
+                                height="200px">
+                            <span class="blog-img-title">
+                                <h3> Java Script: The Dynamic Programming Language of the Web </h3>
+                            </span></a>
+                    </div>
+                    <div class="column-blog">
+                        <a href="chat-GPT"><img src="./images/chat-gpt.jpeg" alt="chat-gpt" style="width:100%"
+                                height="200px">
+                            <span class="blog-img-title">
+                                <h3> Chat GPT: The Powerful AI</h3>
+                            </span> </a>
+                    </div>
+                    <div class="column-blog">
+                        <a href="c++"><img src="./images/c++.jpeg" alt="c++" style="width:100%" height="200px">
+                            <span class="blog-img-title">
+                                <h3>C++: A High-Performance P.L for System and Application Development</h3>
+                            </span> </a>
+                    </div>
+                </div>
+
+            </div>
+            <div id="col-reco-2">
+                <h4 class="recommended-post-home-1">
+                    <span class="black-box">Most Popular</span>
+                </h4> <br>
+
+                <div class="row-pop">
+                    <div class="column-pop">
+                        <a href="google-hacking-google-dorks">
+                            <img src="./images/g-dorks.jpeg" alt="google-hacking-google-dorks"
+                                style="height:55px;width:100px"> &nbsp;Google Dorks: The Hacking &nbsp;Element
+                        </a>
+                    </div>
+                    <div class="column-pop">
+                        <a href="cyborg">
+                            <img src="./images/cyborg.jpg" alt="cyborg" style="height:55px;width:100px"> &nbsp;Cyborg:
+                            Human or &nbsp;Machine?
+                        </a>
+                    </div>
+                    <div class="column-pop">
+                        <a href="green-hydrogen">
+                            <img src="./images/green-h2.jpeg" alt="green-h2" style="height:55px;width:100px">&nbsp;Green
+                            Hydrogen: Fuel &nbsp;Everywhere!
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="footer-content">
+            <h2>FOLLOW US ON SOCIAL MEDIA</h2>
+
+            <ul>
+                <a href="https://facebook.com/regmi.satyam" target="_blank">
+                    <li> <i class="fab fa-facebook-f"></i></li>
+                </a>
+                <a href="https://twitter.com/satyam6regmi" target="_blank">
+                    <li><i class="fab fa-twitter"></i></li>
+                </a>
+                <a href="https://instagram.com/regmisatyam" target="_blank">
+                    <li><i class="fab fa-instagram"></i></li>
+                </a>
+                <a href="https://linkedin.com/in/satyam-regmi" target="_blank">
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </a>
+                <a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1" target="_blank">
+                    <li><i class="fab fa-youtube"></i></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="last-footer">
+        <div id="text-footer">
+            <div id="satyam">
+                Copyright © 2021-2023 <a href="https://satyamregmi.com.np">Satyam Regmi</a> All Rights Reserved
+            </div>
+
+
+            <a href="https://satyamregmi.com.np">Home</a>
+            <a href="https://satyamregmi.com.np/About">About</a>
+            <a href="https://satyamregmi.com.np/terms-conditions">Terms and Condition</a>
+            <a href="https://satyamregmi.com.np/privacy-policy">Privacy Policy</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <!--add all information -->Hello I'm
+
+            <h3 id="foot-h3">Satyam Regmi</h3>
+            <p>I'm Webpage Designer and Developer.</p>
+            <ul class="socials">
+                <li><a href="https://facebook.com/regmi.satyam" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/satyam6regmi" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/regmisatyam" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com/channel/UC3PNPmUPHjkm1iA0A_cGP8A?sub_confirmation=1" target="_blank"><i
+                            class="fa fa-youtube"></i></a></li>
+                <li><a href="https://linkedin.com/in/satyam-regmi" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+
+
+        </div>
+        <div class="footer-bottom">
+            &copy; 2021-2023 <a href="https://satyamregmi.com.np">Satyam Regmi</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

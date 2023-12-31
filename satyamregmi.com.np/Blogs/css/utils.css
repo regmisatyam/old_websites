@@ -1,0 +1,87 @@
+/* SATYAM REGMI (satyamregmi.com.np) */ 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Source+Serif+Pro:wght@300&family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Roboto:wght@500&family=Source+Serif+Pro:wght@300&family=Spectral:wght@200&display=swap');
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+:root {
+    --main-bg-color: brown;
+    --font1: 'Hind Siliguri', sans-serif;
+    --font2: 'Source Serif Pro', serif;
+    --font3: 'Spectral', serif;
+    --font4: 'Roboto', sans-serif;
+
+}
+
+.max-width-1 {
+    max-width: 80vw;
+    position: relative;
+}
+
+
+.m-auto {
+    margin: auto;
+}
+
+#btn-search {
+    padding: 3px 15px;
+    border: 2px solid black;
+    border-radius: 7111px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+    text-decoration: solid;
+}
+
+#btn-search:hover{
+    color: rgb(77, 179, 237);
+    border-color: rgb(77, 179, 237);
+    background-color: white;
+}
+
+
+
+#form-input {
+    padding: 0px 5px;
+    padding-top: 2px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font3);
+}
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 35;
+  }
+
+.sticky {
+position: fixed;
+
+    top: 0;
+    width: 100%;
+  }
+  
+ .sticky + .content {
+    padding-top: 60px;
+    
+  }
+
+.pagination-topic a{
+  color: grey;
+  opacity: .5;
+}
+.pagination-topic{
+  color: grey;
+  opacity: .5;
+}
